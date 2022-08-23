@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2297877263257228839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2297877263257228837}
+  - component: {fileID: 2297877263257228838}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2297877263257228837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297877263257228839}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8463712, y: 3.9855952, z: 4.649733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2297877263257228838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297877263257228839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f521090fedd7e4186ef6a78a60093f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinsiyet:
+  - Cinsiyet: Erkek
+    Sorular: []
+  - Cinsiyet: "Kad\u0131n"
+    Sorular:
+    - SoruAciklama: "\xDCniversite s\u0131nv\u0131na girdin ve matematikten d\xFC\u015F\xFCk
+        puan ald\u0131n. Mezuna kald\u0131n. D\u0131\u015Far\u0131 \xE7\u0131kt\u0131n.
+        Nereye gidiyorsun?"
+      Kapilar:
+      - KapiAdi: "K\xDCT\xDCPHANE"
+        KapiText: {fileID: 0}
+        KapiObject: {fileID: 0}
+        DogruKapi: 1
+        KapiAciklama: "K\xFCt\xFCphaneye gittin ve matematik konusunda kendini geli\u015Ftirmeye
+          \xE7al\u0131\u015Ft\u0131n."
+      - KapiAdi: KAFE
+        KapiText: {fileID: 0}
+        KapiObject: {fileID: 0}
+        DogruKapi: 0
+        KapiAciklama: "Kafede arkada\u015Flar\u0131nla oyun oynad\u0131n ve \xFCniversite
+          s\u0131nav\u0131nda, oyunda yapt\u0131\u011F\u0131n stratejiyi yapt\u0131n.
+          Sallad\u0131n (oyunda zarlar\u0131, s\u0131navda \u015F\u0131klar\u0131)"
+    - SoruAciklama: "\xC7ok \xE7al\u0131\u015Ft\u0131n ama bir soruda tak\u0131ld\u0131n.
+        O s\u0131rada yan\u0131na yak\u0131\u015F\u0131kl\u0131 bir \xE7ocuk oturdu.
+        Soruyu ona g\xF6stermeli misin?"
+      Kapilar:
+      - KapiAdi: "G\xD6STER"
+        KapiText: {fileID: 0}
+        KapiObject: {fileID: 0}
+        DogruKapi: 1
+        KapiAciklama: "Soruyu ona g\xF6sterdin ve sana yard\u0131mc\u0131 oldu. Ondan
+          etkilendin."
+      - KapiAdi: "G\xD6STERME"
+        KapiText: {fileID: 0}
+        KapiObject: {fileID: 0}
+        DogruKapi: 0
+        KapiAciklama: "Soruyu ona g\xF6stermedin ve soruyu \xE7\xF6zemedin. Depresyonna
+          girdin."
+    - SoruAciklama: "Telefon numaralar\u0131n\u0131z\u0131 verdiniz. Bir hafta sonra
+        sana yazd\u0131 ve matematik \xE7al\u0131\u015Fman laz\u0131m"
+      Kapilar:
+      - KapiAdi: "BULU\u015E"
+        KapiText: {fileID: 0}
+        KapiObject: {fileID: 0}
+        DogruKapi: 1
+        KapiAciklama: "Onun yan\u0131nda \xE7al\u0131\u015Ft\u0131n ve bir soruya
+          tak\u0131ld\u0131n. Bir soruya tak\u0131ld\u0131n ondan yard\u0131m istedin,
+          sana anlatarak yard\u0131m etti."
+      - KapiAdi: "BULU\u015EMA"
+        KapiText: {fileID: 0}
+        KapiObject: {fileID: 0}
+        DogruKapi: 0
+        KapiAciklama: "Onunla bulu\u015Fmad\u0131n. Bir soruda tak\u0131ld\u0131n.
+          Ondan yard\u0131m istedin fakat sana d\xF6nmedi. Ba\u015Fka arkada\u015Flar\u0131ndan
+          yard\u0131m isterken annen seni telefonla u\u011Fra\u015F\u0131rken yakalad\u0131
+          ve azarlad\u0131."
+    - SoruAciklama: "Onunla sevgili oldun. O ve sen \xFCniversite s\u0131nav\u0131nda
+        ba\u015Far\u0131l\u0131 oldunuz. Beraber ayn\u0131 ildeki \xFCniversiteye
+        gitmek istiyor"
+      Kapilar:
+      - KapiAdi: KABUL ET
+        KapiText: {fileID: 0}
+        KapiObject: {fileID: 0}
+        DogruKapi: 1
+        KapiAciklama: "Kabul ettiniz. Birbirinize hem sosyal hem akademik anlamda
+          destek sa\u011Flad\u0131n\u0131z"
+      - KapiAdi: KABUL ETME
+        KapiText: {fileID: 0}
+        KapiObject: {fileID: 0}
+        DogruKapi: 0
+        KapiAciklama: "Kabul etmedin. Bir zaman sonra ayr\u0131ld\u0131n\u0131z.
+          Neden kabul etmedi\u011Fini merak ettim."
+  karakterler: []
+  aciklama: {fileID: 0}
+  paneller:
+  - {fileID: 0}
+  - {fileID: 0}
+  panelTextleri:
+  - {fileID: 0}
+  - {fileID: 0}
